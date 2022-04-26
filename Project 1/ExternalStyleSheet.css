@@ -1,0 +1,17 @@
+.hover-bronze { background-color: #00bfff }
+
+.hover-bronze:hover {
+  background-color: #CD7F32;
+}
+
+ .hover-silver { background-color: #00bfff }
+
+ .hover-silver:hover {
+  background-color: #aaa9ad;
+}
+
+ .hover-gold { background-color: #00bfff }
+
+ .hover-gold:hover {
+   background-color: gold;
+ }
