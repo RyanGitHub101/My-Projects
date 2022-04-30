@@ -1,0 +1,89 @@
+
+/* Style button and paragraph inside the <div class = "Inside-description">*/
+
+#firstInput {
+  margin-right: 48px;
+  background-color: lightgreen;
+  font-size: 20px;
+  height: 50px;
+  width: 250px;
+
+}
+
+#secondInput {
+  margin-right: 68px;
+  background-color: lightgreen;
+  font-size: 20px;
+  height: 50px;
+  width: 250px;
+
+}
+
+#thirdInput{
+  margin-right: 60px;
+  background-color: lightgreen;
+  font-size: 20px;
+  height: 50px;
+  width: 250px;
+
+}
+
+#fourthInput {
+  margin-right: 33.2px;
+  background-color: YellowGreen;
+  font-size: 20px;
+  height: 50px;
+  width: 250px;
+
+}
+
+#fifthInput {
+  margin-right: 42px;
+  background-color: YellowGreen;
+  font-size: 20px;
+  height: 50px;
+  width: 250px;
+
+}
+
+#sixthInput {
+  margin-right: 37px;
+  background-color: YellowGreen;
+  font-size: 20px;
+  height: 50px;
+  width: 250px;
+
+}
+
+/* Use PSUDEO element to hover the button with a different colour */
+
+#firstInput:hover {background-color: MediumSeaGreen; }
+
+#secondInput:hover { background-color: Aqua; }
+
+#thirdInput:hover {background-color: #f10c45; }
+
+#fourthInput:hover {background-color: #135DD8} /* police blue */
+
+#fifthInput:hover {background-color: MediumSeaGreen;}
+
+#sixthInput:hover {background-color: SlateGray;}
+
+  p {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  footer {
+    margin-left: 27.5em;
+    width: 30%;
+    height: 100px;
+    background-color: DodgerBlue;
+  }
+
+  #footer-p  {
+    padding-top: 15px;
+    color: white;
+    font-family: monospace;
+    font-size: 30px;
+  }
