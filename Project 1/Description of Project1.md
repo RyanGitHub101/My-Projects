@@ -1,14 +1,15 @@
 
 1. What is project 1 about?
-Answer:
+Answer: TEST
 
 2. How long did it took me to finish the project?
-Answer:
+Answer: TEST
 
 3. How did you plan your project?
-Answer:
+Answer: TEST
 
 4. What technologies did you use?
-Answer:
+Answer: TEST
 
 5.  What did problems did you face during the project?
+6.  Answer: TEST
