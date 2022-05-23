@@ -1,0 +1,207 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+  <head>
+
+    <title> Web Survey 2022 </title>
+    <meta charset = "utf-8">
+    <link rel = "stylesheet" href = "WebSurveyExternal.css">
+
+    <style>
+
+    body {
+      background: url("https://wallpaper.dog/large/17089352.png");
+      background-size: 150%;
+      direction: rtl;
+    }
+
+     #WhitePosition {
+       display: flex;
+       justify-content: center;
+     }
+
+    #whiteUI {
+      background-color: white;
+      width: 600px;
+      height: 115em;
+    }
+
+    header {
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    video {
+       border: 5px solid black;
+       width: 99%;
+    }
+
+    .Question1, .question2, .question3, .question4, .question5 {
+       margin-top: 50px;
+       float: left;
+       direction: ltr;
+       font-size: 20px;
+    }
+
+     #UserType {
+       margin-top: -5px;
+       margin-right: 2em;
+       width: 90%;
+       height: 150px;
+       direction: ltr;
+       font-size: 17px;
+    }
+
+    #UserTypeFeedback {
+      margin-left: 1em;
+      width: 80%;
+      height: 10em;
+      font-size: 17px;
+    }
+
+    .ListOptions_Q2 {
+       font-size: 17px;
+       margin-left: 1.5em;
+    }
+
+    .Q2_Check {
+      display: flex;
+      justify-content: space-between;
+      margin-top: -3em;
+
+    }
+
+      </style>
+
+    </head>
+
+      <body>
+
+        <div id = "WhitePosition">
+
+          <!-- Main section -->
+
+            <div id = "whiteUI">
+
+            <header> <p> Please Watch this video to do the survey</p>  </header>
+            <video controls src = "Artificial_Intelligence.mp4">
+
+                <track kind = "subtitles" src = "Artificial_Intelligence.mp4" srclang = "en-GB" default >
+
+               </video>
+
+               <!--Questionnaire section -->
+               <form action = "file:///Users/user/Desktop/My%20projects/Project%204/done.html">
+
+                    <p class = "Question1"> 1) What are your thoughts on this video? </p>
+
+                     <textarea required id = "UserType"></textarea>
+
+                       <dt class = "question2"> 2) Give your rating on how good his explanation was?
+
+                      <p class = "ListOptions_Q2"> Very bad </p>
+                      <input class = "Q2_Check" type = "checkbox">
+
+                       <p class = "ListOptions_Q2"> Bad </p>
+                       <input  class = "Q2_Check"  type = "checkbox">
+
+                       <p class = "ListOptions_Q2"> Decent</p>
+                       <input  class = "Q2_Check"  type = "checkbox">
+
+                       <p class = "ListOptions_Q2"> Good </p>
+                       <input  class = "Q2_Check"  type = "checkbox">
+
+                       <p class = "ListOptions_Q2"> Really Good </p>
+                       <input  class = "Q2_Check"  type = "checkbox">
+
+                       <p class = "question3"> 3) Click which statement is TRUE or FALSE? </p>
+
+                       <!--Create a table of 4 x 3 table -->
+
+                       <table>
+
+                         <thead>
+
+                           <tr>
+
+                           <th> </th>
+                           <th class = "tableHeader"> TRUE </th>
+                           <th class = "tableHeader"> FALSE </th>
+
+                          </tr>
+
+                         </thead>
+
+                           <tbody>
+
+                             <tr>
+
+                             <td> AI can develop emotion </td>
+                             <td> <input  class = "checkbox2TRUE" type = "checkbox"> </td>
+                             <td> <input  class = "checkbox2FALSE" type = "checkbox"> </td>
+
+                             </tr>
+
+                             <tr>
+
+                             <td> AI stands for Artificial Intelligence</td>
+                             <td> <input  class = "checkbox2TRUE" type = "checkbox"> </td>
+                             <td> <input  class = "checkbox2FALSE" type = "checkbox"> </td>
+
+                             </tr>
+
+                             <tr>
+
+                             <td> AI is smarter than people </td>
+                             <td> <input  class = "checkbox2TRUE"  type = "checkbox"> </td>
+                             <td> <input  class = "checkbox2FALSE"  type = "checkbox"> </td>
+
+                             </tr>
+
+                           </tbody>
+
+                       </table>
+
+                        <dt class = "question4"> 4) What is weak AI? (Select two options)
+
+                        <p class = "ListOptions_Q3"> A type of AI that is limited to a specific or narrow area </p>
+                        <input class = "Q3_CheckTick" type ="checkbox">
+
+                        <p class = "ListOptions_Q3"> A type of AI that is smarter than human intelligences </p>
+                        <input class = "Q3_CheckTick"  type ="checkbox">
+
+                        <p class = "ListOptions_Q3"> A type of AI that can develop their own emotions </p>
+                        <input class = "Q3_CheckTick"  type ="checkbox">
+
+                        <p class = "ListOptions_Q3"> A type of AI that focus on task very well </p>
+                        <input class = "Q3_CheckTick" type ="checkbox">
+
+                        <p class = "question5"> 5) Any extra comment or feedback </p>
+                         <textarea id = "UserTypeFeedback" required></textarea>
+
+                        <!-- Button Submittion -->
+                       <input  id = "SubmissionButton" type = "submit" action = "file:///Users/user/Desktop/My%20projects/Project%204/done.html">
+                        <!-- Creator of the website (<footer>) -->
+
+                        <footer>
+
+                        <p id = "FooterDescription"> Made by RyanGitHub101 </p>
+
+                      </footer>
+
+
+                        <!-- Social links Github and Linkedin -->
+                        <a href = "https://github.com/RyanGitHub101"> <img id = "GitHubPosition" src = "Github.png" alt = "GitHub"> </a>
+                        <a href = "https://www.linkedin.com/in/ryan-medina-148396236"> <img id = "LinkedinPosition" src = "https://www.pngall.com/wp-content/uploads/2016/07/Linkedin-Download-PNG.png" alt = "Linkedin"> </a>
+                        <!-- To avoid the image stuck inside the <footer> put it outside the <footer> -->
+                         </form>
+
+                   </div>
+
+            </div>
+
+        </body>
+
+ </html>
+
+ <!-- Spot one errors:  *The video subtitles is not popping up -->
