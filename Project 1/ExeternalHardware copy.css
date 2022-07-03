@@ -1,0 +1,195 @@
+/* Background webpage */
+#Background1 {
+    background-image: linear-gradient(to bottom right, #22E7D1, #5D75B9);
+    width: 101.5%;
+    height: 28em;
+    margin: 0 0 0 -9px;
+}
+
+#Computerhardwareparts {
+   background-image: linear-gradient(to bottom right, #46B3F4, #033961CC);
+   padding-bottom: 5em;
+   width: 101.5%;
+   margin: -1.5em 0 0 -9px;
+}
+
+
+#Background2 {
+    background-image: linear-gradient(135deg, #434244 10%, #B1AFBF 100%);
+    width: 101.5%;
+    margin: -7em 0 0 -9px;
+}
+
+#Background3 {
+   background-image: linear-gradient(135deg, #77889957 10%, #5402028C 100%);
+   width: 101.5%;
+   margin: -12.5em  0 0 -9px;
+
+}
+
+#Background4 {
+    background-image: linear-gradient(135deg, #616161 10%, #9bc5c3 100%);
+    width: 101.5%;
+    margin: -12.5em 0 0 -9px;
+}
+
+#Background5 {
+   background-image: linear-gradient(135deg, #89f7fe 10%, #66a6ff 100%);
+   width: 101.5%;
+   margin: -12.5em 0 0 -9px;
+}
+
+#Background6 {
+    background-image: linear-gradient(to bottom right, #D3D3D3, #3F3535);
+    width: 101.5%;
+    margin: -12.490em 0 0 -9px;
+
+}
+
+#GPU-Background7 {
+  background-image: linear-gradient(to bottom right, #A8A9AD, #403030);
+  width: 101.5%;
+  margin: -12.49em 0 0 -9px;
+}
+
+#RAM-Background8 {
+  background-image: linear-gradient(to bottom right,#E14AF2 , #ADFF2F);
+  width: 101.5%;
+  margin: -12.5em 0 0 -9px;
+}
+
+#HardDrive-Background9 {
+  /* Lightgray TO almost dark gray */
+  background-image: linear-gradient(to bottom right,#E3CDE5, #473E3E );
+  width: 101.5%;
+  margin: -12.5em 0 0 -9px;
+}
+
+
+/* PSU, Motherboard section styling */
+
+#PSU {
+  width: 750px;
+  height: 700px;
+  margin: 200px auto;
+}
+
+#PSU-Description {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+
+#PSU-Analogy {
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap-reverse;
+}
+
+#Motherboard {
+  width: 750px;
+  height: 750px;
+  margin: 200px auto;
+}
+
+#MotherBoard-Description {
+   display: flex;
+   align-items: center;
+}
+
+#MotherboardAnalogy {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap-reverse;
+}
+
+/* PSUEDO elements like  table of contents */
+a:hover {
+  text-decoration: underline;
+}
+
+/* Data section GPU, CPU */
+#CPU-GPU, #Hardrive-RAM {
+    padding: 2em;
+}
+
+/* Description section (CPU, GPU) */
+
+#CPU {
+   width: 750px;
+   height: 810px;
+   margin: 200px auto;
+}
+
+#CPU-Description {
+    margin: -110px 0 0 8em;
+}
+
+#CPU-Description2 {
+    padding: 1.5em 0 0 8em;
+}
+
+#CPU-Analogy {
+    display: flex;
+    flex-direction: row;
+}
+
+
+#GPU {
+  width: 800px;
+  height: 56.5em;
+  margin: 200px auto;
+}
+
+#First-QuestionGPU {
+    margin: -110px 0 0 8em;
+}
+
+#GPU-Description {
+    padding: 1.5em 0 0 8em;
+}
+
+#GPU-Analogy {
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* RAM, Hardrive section */
+
+#RAM {
+  width: 800px;
+  height: 875px;
+  margin: 200px auto;
+}
+
+#Short-description {
+  margin: -110px 0 0 8em;
+}
+
+#RAM-Description {
+  padding: 1.5em 0 0 8em;
+}
+
+#RAM-Analogy {
+   display: flex;
+   flex-direction: row;
+}
+
+#Hard-Drive {
+  width: 900px;
+  height: 970px;
+  margin: 200px auto;
+}
+
+#Hardrive-description {
+     display: flex;
+     align-items: center;
+     margin: -1.5em
+}
+
+#Hard-drive-Analogy {
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+}

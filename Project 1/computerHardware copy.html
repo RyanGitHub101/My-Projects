@@ -1,0 +1,499 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+
+     <title> Hardware education </title>
+     <meta charset="utf-8">
+     <link rel="stylesheet" href="ExeternalHardware.css">
+
+     <style>
+
+     h1 {
+         display: flex;
+         justify-content: center;
+     }
+
+     #TableOfContent {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       border: 2px black solid;
+       margin: 50px 0 0 10px;
+       width: 20%;
+       height: 20em;
+     }
+
+     #InternalLinks {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+     }
+
+     a {
+       display: block;
+       text-decoration-line: none;
+       margin-top: 13.5px;
+       font-size: 16px;
+     }
+
+     #HardwareDescription {
+       margin: -20em 0 0 25em;
+     }
+
+     .Questions {
+        padding: calc(20px + 15px) 0 0 calc(10px - 30px);
+        width: max-content;
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+        text-decoration: underline;
+     }
+
+     p {
+       margin-left: 20px;
+       font-size: 20px;
+     }
+
+     #YotubeVideo {
+        background-image: linear-gradient(to bottom right, #00C0FF, #4218B8);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 101.5%;
+        height: 28em;
+        margin-left: -9px;
+     }
+
+     #HardwareImageContainer {
+         display: flex;
+         flex-direction: row;
+         justify-content: space-evenly;
+         align-items: flex-end;
+         margin-top: 5em;
+     }
+
+    h3 {
+      display: inline-block;
+      margin: 20px 0 0 80px;
+    }
+
+    #PCase {
+      width: 750px;
+      height: 710px;
+      margin: 100px auto;
+    }
+
+    .PCheading, .PSU-Heading, .Motherboard-heading, .CPU-Heading,  #PC-Diagram, #PSU-Diagram, #MotherBoard-Diagram, #CPU-Diagram, #RAM-Diagram, #GPU-Diagram, #Hard-drive-diagram {
+      display: flex;
+      justify-content: center;
+    }
+
+    #PCdescription {
+      display: flex;
+      align-items: stretch;
+    }
+
+    ul, li {
+      font-size: 20px;
+    }
+
+    #PC-Analogy {
+      margin: -10px 0 0 0;
+      font-size: 20px;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap-reverse;
+    }
+
+     .Hardware-Underline {   text-decoration: underline; }
+
+     .list-space {
+         margin: 10px;
+     }
+
+     footer {
+      --red: 0; --green: 204; --blue: 255;
+      background: rgb(var(--red), var(--green), var(--blue));
+      padding: 10px;
+      width: max-content;
+      margin: -10em 0 0 445.2px /* Formula 1em = 16px so multiply EM value x 16 */
+     }
+
+     .changeImgStyle {
+       display: inline;
+       margin-left: 6.8em;
+       margin-right: -4.5em;
+     }
+
+       </style>
+
+   </head>
+
+  <body>
+    <!-- Introduction -->
+    <div id="Background1">
+    <h1 style="margin-top: -7px;"> Basics of Computer hardware 101 </h1>
+    <hr style ="width: 50%;">
+
+    <!-- End -->
+
+    <!-- Table of contents -->
+    <div id = "TableOfContent">
+
+     <h2> Table of content </h2>
+
+     <nav id = "InternalLinks">
+
+        <a href = "file:///Users/user/Desktop/My%20projects/Project%201/networkHardware.html"> Network hardware 101 </a>
+        <a href="#AssignCase"> PC case </a>
+        <a href="#AssignSupply"> Power supply </a>
+        <a href="#AssignMotherboard"> Motherboard </a>
+        <a href="#AssignCPU"> CPU</a>
+        <a href="#AssignGPU"> GPU </a>
+        <a href="#AssignRam"> RAM </a>
+        <a href="#AssignHardrive"> Hard drive </a>
+
+     </nav>
+
+    </div>
+
+    <!-- End -->
+
+    <!--Computer Hardware Question page -->
+
+    <div id = "HardwareDescription">
+
+     <h2 class="Questions"> What is a hardware? </h2>
+     <p> A physical components of the computer. </p>
+
+     <h2 class="Questions"> Why hardware is important? </h2>
+     <p> Because without hardware, the computer won't be able to run software.
+         Without<br> it, we wouldn't have operating systems, browsers, video games, youtube video or anything.
+     </p>
+    </div>
+  </div>
+    <!-- End -->
+
+    <!-- Yotube Section -->
+
+    <div id = "YotubeVideo">
+
+    <h1> Watch this video below on hardware vs software </h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/vG_qmtdBPTU" title="YouTube video player" style="border: 0px" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+   </div>
+
+   <!-- End -->
+
+   <!-- The 7 hardware parts -->
+   <div id="Computerhardwareparts">
+   <h1> The 7 list of computer hardware below </h1>
+   <div id = "HardwareImageContainer">
+   <img src="https://www.pikpng.com/pngl/b/585-5853673_pc-case-transparent-transparent-background-corsair-600c-case.png" alt ="Case" width = 80>
+   <img src="http://sc04.alicdn.com/kf/H648d2c2a52564bac8b707abc5055b2efM.png" alt ="PSU" width = 80 height = 80>
+   <img src="Motherboard-removebg-preview.png" alt ="Mother Board" width = 90 height = 90>
+   <img src="GPU-removebg-preview.png" alt ="GPU" width = 90 height = 90>
+   <img src="CPU-removebg-preview.png" alt ="CPU" width = 100 height = 100>
+   <img src="RAM-removebg-preview.png" alt ="RAM" width = 100 height = 100>
+   <img src="Hardrive-removebg-preview.png" alt ="Hardrive" width = 100>
+
+   </div>
+
+
+   <h3 id="AssignCase"> PC case </h3>
+   <h3> Power supply </h3>
+   <h3 style="margin-left: 50px"> Mother board </h3>
+   <h3 style="margin-left: 90px"> GPU </h3>
+   <h3 style="margin-left: 130px"> CPU </h3>
+   <h3 style="margin-left: 150px"> RAM </h3>
+   <h3 style="margin-left:  100px;"> Hardrive </h3>
+
+  </div>
+
+    <!-- PC case section -->
+     <div id="Background2">
+    <div id="PCase">
+
+      <h1> PC case </h1>
+      <h2 class="PCheading"> What does the case do? </h2>
+
+      <div id="PCdescription">
+
+       <img style="padding-left: 20px;" src="https://www.pikpng.com/pngl/b/585-5853673_pc-case-transparent-transparent-background-corsair-600c-case.png" alt ="Case" width = 80>
+      <ul>
+        <li> Support and shield the components
+        <li> Stores everything (CPU, GPU, motherboard, power supply unit, memory, hardrive)
+        <li> Allows direct airflow to prevent hot air inside the case
+      </ul>
+
+      </div>
+
+      <div id="PC-Analogy">
+        <img style ="width: 100px; margin: 50px;" src="https://1067544234.rsc.cdn77.org/photoThumbnail/2015-12/14745-174313/white-skins-photo-texture-of-skin_640v640.jpg" alt="HumanSkin">
+        <p style="margin: -130px 0 0 40px;"> Analogy: <br> Think of a skin. It protects other components and provide structure <br>
+            in a well orangised way. You can also call a PC case "chassis"  </p>
+     </div>
+
+     <div id="PC-Diagram">
+       <img style="margin-top: 40px;" src="http://s2.thingpic.com/images/wV/2avavUQkb5HvMnRTUwhiXXa7.jpeg" alt="PC-Diagram" width = 500 height = 300>
+     </div>
+
+  </div>
+</div>
+    <!-- Power supply unit section -->
+    <div id="Background3">
+    <div id="PSU">
+
+      <h1 id="AssignSupply"> Power supply unit </h1>
+      <h2 class="PSU-Heading"> What does the power supply unit do? </h2>
+
+      <div id="PSU-Description">
+      <img style="margin-left: -80px;"  src="http://sc04.alicdn.com/kf/H648d2c2a52564bac8b707abc5055b2efM.png" alt ="PSU" width = 80 height = 80>
+      <ul>
+        <li> Regulates power
+        <li> Plugs outlet into the voltage switch
+        <li> Converts Alternating current (AC) to direct current (DC)
+      </ul>
+      </div>
+
+      <div id="PSU-Analogy">
+
+        <p >Analogy: <br> Think of a heart (human body), it just blood pump blood to your whole body<br> so it can function. The power supply provides energy and power to the computer </p>
+       <img style="position: absolute; margin: 20px;" src="Heart-removebg-preview.png" alt="HumanHeart" width = 100>
+      </div>
+
+      <div id="PSU-Diagram">
+          <img style="margin-top: 40px" src="http://rogbuild.com/Site/themed-images/pages/page-column/powersupply1.jpg" alt="PSU-Diagram" width = 400>
+      </div>
+    </div>
+  </div>
+
+    <!-- Motherboard section -->
+  <div id="Background4">
+    <div id="Motherboard">
+
+      <h1 id="AssignMotherboard"> Motherboard </h1>
+      <h2 class="Motherboard-heading"> What does the motherboard do? </h2>
+
+      <div id="MotherBoard-Description">
+
+        <img src="Motherboard-removebg-preview.png" alt ="Mother Board" width = 90 height = 90>
+        <ul>
+          <li> Allows graphics card and processor to perform better
+          <li> Communicate between components such as CPU, memory
+          <li> Connects some hardware components which include CPU, RAM, RGB cooling fans, power supply and BIOS.
+        </ul>
+
+      </div>
+
+      <div id="MotherboardAnalogy">
+        <p> Analogy: <br> Think of a nervous system, the neurons send signals, or messages, all  over <br> your body. The motherboard connects various parts of the computer and by <br> connecting something to each part something different happens. </p>
+        <img style="position: absolute; margin: 50px 0 0 0;" src="https://www.verywellhealth.com/thmb/Mlb43doqJXsZzlfzNfsrqQVsvco=/2308x1298/filters:fill(87E3EF,1)/GettyImages-1286811004-c131142c59cc4220a9a688fa745a2f42.jpg" alt="NervousSystem" width = 100>
+      </div>
+
+      <div id="MotherBoard-Diagram">
+        <img style="margin-top: 40px;" src="https://www.what-is-my-computer.com/images/atx-motherboard-layout.jpg" alt="Motherboard-diagram" width = 400>
+      </div>
+    </div>
+  </div>
+
+   <!-- CPU, GPU, RAM, Hardrive section -->
+   <div id="Background5">
+
+    <h1> 4 PC components that deals with data </h1>
+
+      <div id="CPU-GPU">
+
+      <img style="padding-left: 23em;" class="ConvertTo" src="CPU-removebg-preview.png" alt ="CPU" width = 100 height = 100>
+      <img style="padding-left: 18em;" class="ConvertTo" src="GPU-removebg-preview.png" alt ="GPU" width = 90 height = 90>
+      <br>
+      <h3 style="padding-left: 17em;"> CPU </h3>
+      <h3 style="padding-left: 14.5em;"> GPU </h3>
+
+     </div>
+
+      <div id="Hardrive-RAM">
+
+      <img style="padding-left: 23em;" class="ConvertTo" src="RAM-removebg-preview.png" alt ="RAM" width = 100 height = 100>
+      <img style="padding-left: 18em;" class="ConvertTo" src="Hardrive-removebg-preview.png" alt ="Hardrive" width = 100>
+      <br>
+      <h3 style="padding-left: 17em;"> RAM </h3>
+      <h3 style="padding-left: 13em;"> Hardrive </h3>
+
+      </div>
+
+    </div>
+
+      <!-- CPU section -->
+      <div id="Background6">
+
+      <div id="CPU">
+
+        <h1 id="AssignCPU" > CPU </h1>
+        <img src="CPU-removebg-preview.png" alt ="CPU" width = 100 height = 100>
+
+        <div id="CPU-Description">
+
+          <h2 class="Hardware-Underline"> What does CPU stand for? </h2>
+          <br>
+          <p style="margin: -20px 0 0 1.2em"> • Central Processing Unit </p>
+
+       </div>
+
+       <div id="CPU-Description2">
+
+         <h2 class="Hardware-Underline"> What does the CPU do? </h2>
+         <ul>
+           <li> Runs computer programs
+           <li> Runs low data storages
+           <li> Create inputs and outputs
+           <li> Peforms arithmetic and logic
+         </ul>
+
+       </div>
+
+       <div id="CPU-Analogy">
+         <p> Analogy: <br> <br> The CPU is like the brain of the body. Our brain controls the human <br>
+             body meanwhile the CPU controls the computer and most important <br>  part of the <strong> computer. </strong>
+             It's very important to know how a CPU works. </p>
+         <img style="padding: 3em 0 0 2.5em" src="https://freepngimg.com/thumb/brain/8-2-brain-transparent-thumb.png" alt="Human-Brain" width=110>
+       </div>
+
+       <div id="CPU-Diagram">
+         <img style="margin-top: 40px;" src="https://theintactone.com/wp-content/uploads/2022/01/Architecture.png" width=400 alt="CPU-Architecture">
+       </div>
+
+     </div>
+
+   </div>
+
+     <!-- GPU section -->
+    <div id="GPU-Background7">
+
+     <div id="GPU">
+
+       <h1 id="AssignGPU"> GPU </h1>
+       <img src="GPU-removebg-preview.png" alt ="GPU" width = 90 height = 90>
+
+       <div id="First-QuestionGPU">
+       <h2 class="Hardware-Underline"> What does GPU stand for? </h2>
+       <br>
+       <p style="margin: -20px 0 0 1.2em"> • Graphical Processing Unit </p>
+      </div>
+
+       <div id="GPU-Description">
+
+         <h2 class="Hardware-Underline"> What does the GPU do? </h2>
+         <ul>
+           <li> Does alot of calculations in matter of milliseconds very quickly.
+           <li> Carrys out small little task efficiently but sucks as complex instruction whereas CPU does that
+           <li> Figures out what frame rate it should be depending on the graphics card
+           <li> Figures out how to display images, pixels, textures, physics and more! in a three-dimensional world and two-dimensional world, also create images from binary data (1010101)
+
+         </ul>
+
+       </div>
+
+       <div id="GPU-Analogy">
+          <p> Analogy: <br><br> The GPU is like the human eye, our eyes connect to our brain and let us see
+              <br> what's happening in the world around us. The GPU allows the computer to <br>
+               display devices images around the screen with a resolution of 1920 x 1080p </p>
+               <img style="padding:3.3em 0 0 2.5em" src="https://www.freeiconspng.com/thumbs/eye-png/blue-eye-3b-png-3.png" width=100 height=100 alt="Human-Eye">
+       </div>
+
+       <div id="GPU-Diagram">
+
+         <img style="margin-top: 40px;" src="https://res.cloudinary.com/practicaldev/image/fetch/s--P2Gciaix--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://cdn-images-1.medium.com/max/2000/0%2A1zfZnftzAdZ2FWLH" alt="GPU-Architecture" width=200>
+       </div>
+
+     </div>
+
+   </div>
+
+     <!-- RAM section -->
+     <div id="RAM-Background8">
+
+     <div id="RAM">
+
+       <h1 id="AssignRam"> RAM </h1>
+       <img src="RAM-removebg-preview.png" alt ="RAM" width = 100 height = 100>
+
+       <div id="Short-description">
+
+         <h2 class="Hardware-Underline"> What does RAM stand for </h2>
+         <p> • Random Access Memory </p>
+
+       </div>
+
+       <div id="RAM-Description">
+
+         <h2 class="Hardware-Underline"> What does the RAM do? </h2>
+         <ul>
+           <li> Stores small amount of data around 8GB to 10GB
+           <li> Process data very fast depending on the RAM speed
+           <li> Performs important task such as loading apps, browsing websites and <br> high-performance play for gaming
+           <li> Stores data on short term basis such as program or files that are being used repeatly in your computer system
+        </ul>
+
+       </div>
+
+       <div id="RAM-Analogy">
+         <p> Analogy: <br> <br> The RAM is just like the pre-frontal lobe of the brain.
+             The RAM plays a role <br> of short term memory, while the human pre-frontal brain plays a role of short <br> term memory  </p>
+        <img style="padding:3.3em 0 0 2.5em" src="https://www.pngkey.com/png/full/3-31616_prefrontal-cortex-of-the-brain-prefrontal-cortex.png" width=100 height=100 alt="Part-Brain">
+       </div>
+
+       <div id="RAM-Diagram">
+         <img style="margin-top: 40px;" src="https://www.researchgate.net/profile/Mihai-Christodorescu/publication/4207354/figure/fig1/AS:669982534946826@1536747692778/Von-Neumann-memory-architecture-Instructions-and-data-share-a-common-main-memory-even.png" alt="RAM-Architecture" width=300>
+       </div>
+
+     </div>
+
+   </div>
+
+     <!-- Hard drive section -->
+
+     <div id="HardDrive-Background9">
+
+     <div id="Hard-Drive">
+
+       <h1 id="AssignHardrive"> Hardrive </h1>
+       <h2 style="margin-left: 8em;" class="Hardware-Underline"> What does the Hard drive do? </h2>
+
+       <div id="Hardrive-description">
+         <img style="margin: -50px 0 1px 0" src="Hardrive-removebg-preview.png" alt ="Hardrive" width = 150>
+
+         <ul>
+           <li class="list-space"> Stores large amount of data around 128GB between 20TB
+           <li class="list-space"> Stores all type of data such as photos, computer programs, video games, music and stores permanently inside the hard drive
+           <li class="list-space"> Retrives data by using recyling bin at your OS, using a cloud based storage to delete data using the recyling bin
+           <li class="list-space"> Process data slower than RAM because as you add more data to your hard drive,
+                                   the drive mechanism must work harder to find the exact data you want, which slows down the retrieval of data
+         </ul>
+
+       </div>
+
+       <div id="Hard-drive-Analogy">
+         <p> Analogy: <br> <br> The hard drive is just like the hippocampus, the more you repeat something,
+             soon it comes long term memory. The hard drive stores data long term about 3 to 5 years or potentially more!
+             The reason is because of it's magnetic field to store information in 0s and 1s </p>
+             <img style="margin: 4em;" src="https://d2jx2rerrg6sh3.cloudfront.net/image-handler/picture/2019/8/shutterstock_1292650672.jpg" alt="Hippocampus" width=100 height=100>
+       </div>
+
+       <div id="Hard-drive-diagram">
+         <img style="margin-top: -50px" src="https://safemode.com.au/wp-content/uploads/2020/01/hard-drive-parts-min.png" alt="Hard-drive-diagram" width=400>
+       </div>
+
+     </div>
+   </div>
+
+   <!-- Final section which is the footer section -->
+   <footer>
+     <h1> Made by RyanGitHub101 </h1>
+     <!--Social links -> Github & linkedin -->
+     <a class="changeImgStyle" href = "https://github.com/RyanGitHub101"> <img src = "http://assets.stickpng.com/images/5847f98fcef1014c0b5e48c0.png" alt = "GitHub" width=50> </a>
+     <a class="changeImgStyle" href = "https://www.linkedin.com/in/ryan-medina-148396236"> <img src = "https://www.pngall.com/wp-content/uploads/2016/07/Linkedin-Download-PNG.png" alt = "Linkedin" width=50> </a>
+   </footer>
+
+   </body>
+</html>
